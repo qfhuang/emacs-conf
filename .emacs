@@ -54,7 +54,7 @@
 
 ;;auto-complete 1.3.1
 ;;http://cx4a.org/software/auto-complete/#Latest_Stable
-;;make install DIR=$HOME/.emacs.d/
+;;make install DIR=$HOME/.emacs.d/plugins/auto-complete
 (add-to-list 'load-path "~/.emacs.d/plugins/auto-complete")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
