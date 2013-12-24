@@ -1,0 +1,19 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 7.3.0 _Wheezy_ - Official i386 DVD #Binary-1 20131215-03:40]/ wheezy contrib main
+
+#deb cdrom:[Debian GNU/Linux 7.3.0 _Wheezy_ - Official i386 DVD #Binary-1 20131215-03:40]/ wheezy contrib main
+
+deb http://mirrors.163.com/debian/ wheezy main
+deb-src http://mirrors.163.com/debian/ wheezy main
+
+deb http://security.debian.org/ wheezy/updates main contrib
+deb-src http://security.debian.org/ wheezy/updates main contrib
+
+# wheezy-updates, previously known as 'volatile'
+deb http://mirrors.163.com/debian/ wheezy-updates main contrib
+# Line commented out by installer because it failed to verify:
+#deb-src http://mirrors.163.com/debian/ wheezy-updates main contrib
+
+#firefox
+deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main
