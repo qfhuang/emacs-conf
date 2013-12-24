@@ -36,8 +36,10 @@
 (global-set-key (kbd "C-<tab>") 'emmet-expand-line)
 
 ;; yasnippet
+
+;; cd ~/.emacs.d/plugins
 ;; git clone https://github.com/capitaomorte/yasnippet
-;; cd ~/.emacs.d/plugins/yasnippet
+;; cd yasnippet
 ;; git clone http://github.com/capitaomorte/yasmate
 ;; git clone http://github.com/AndreaCrotti/yasnippet-snippets
 ;; mv yasnippet-snippets snippets
@@ -50,7 +52,9 @@
         ))
 (yas/minor-mode-on) ; 以minor mode打开，这样才能配合主mode使用
 
-;;auto-complete
+;;auto-complete 1.3.1
+;;http://cx4a.org/software/auto-complete/#Latest_Stable
+;;make install DIR=$HOME/.emacs.d/plugins/auto-complete
 (add-to-list 'load-path "~/.emacs.d/plugins/auto-complete")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
